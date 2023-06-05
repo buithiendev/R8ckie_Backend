@@ -1,0 +1,9 @@
+{
+    "watch": [""],
+    "ext": ".ts,.js",
+    "ignore": [],
+    "exec": "npx ts-node ./server.ts",
+    "events": {
+        "start": "clear"
+    }
+}

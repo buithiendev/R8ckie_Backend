@@ -1,0 +1,192 @@
+26-05-2023	35:06:12-------Id-Error:b5b1aafd-8d91-4a20-8478-9bfe3c0dcac4----[GET]----/v1/api/products/1----Cast to ObjectId failed for value "1" (type string) at path "_id" for model "Product"
+26-05-2023	03:07:12-------Id-Error:684f9439-b00f-482b-a966-c573eb195a8c----[GET]----/v1/api/products/646ed457f6806785de2eb7cg----Cast to ObjectId failed for value "646ed457f6806785de2eb7cg" (type string) at path "_id" for model "Product"
+26-05-2023	18:16:12-------Id-Error:a54f2a98-2ae2-4774-ac88-23d5c913e212----[GET]----/v1/api/products/646f22a62519d4a98d80674----Cast to ObjectId failed for value "646f22a62519d4a98d80674" (type string) at path "_id" for model "Product"
+31-05-2023	52:48:22-------Id-Error:a814ef3e-768c-456f-97dc-0ddfb6c470b3----[POST]----/v1/dashboard/api/products/6469d66c2ccc92f392da65eb/publish----This product could not be found
+31-05-2023	00:49:22-------Id-Error:bb26e02e-e2b4-40f7-9a42-821bf4d4dbfb----[POST]----/v1/dashboard/api/products/6469d66c2ccc92f392da65eb/unpublish----This product could not be found
+31-05-2023	07:49:22-------Id-Error:02591506-f2aa-4d7a-bdef-030a0f2137e3----[POST]----/v1/dashboard/api/products/646b3e4c17b0012c5e621b75/tags----This product could not be found
+31-05-2023	11:49:22-------Id-Error:3ac070ff-a6e9-4bc9-ba4c-d82ff3a3ff3e----[DELETE]----/v1/dashboard/api/products/646aed2e5c59c35e36fee438/tags----This product could not be found
+02-06-2023	40:22:23-------Id-Error:c155a7e7-357f-4bdf-ad32-ed69546f008e----[POST]----/v1/dashboard/api/admin/login----The account has not yet verified the email. please verify via email inbox 
+02-06-2023	24:25:23-------Id-Error:7aae8e8a-076a-4557-8b08-bf234d271dca----[POST]----/v1/api/customers/register----Customer validation failed: gender: `0` is not a valid enum value for path `gender`.
+02-06-2023	46:25:23-------Id-Error:fb1dceb5-dedf-428b-b2ea-7309b797d03c----[POST]----/v1/api/customers/register----Expected double-quoted property name in JSON at position 120
+02-06-2023	54:25:23-------Id-Error:bcba7810-defd-43d9-9530-f9c22ca827a5----[POST]----/v1/api/customers/register----Customer validation failed: gender: `0` is not a valid enum value for path `gender`.
+02-06-2023	45:29:23-------Id-Error:a51d1c67-e8c1-4950-8d7f-40a8b97538c4----[POST]----/v1/api/customers/login----Please verify your email in your email inbox
+02-06-2023	43:31:23-------Id-Error:5f4a75c8-fb6f-43e8-b15b-1cc33b811db5----[POST]----/v1/api/customers/logout----Not found key store
+02-06-2023	06:33:23-------Id-Error:346b5c74-cedb-4bed-932d-b84bbb14c24e----[POST]----/v1/api/customers/address/create----Not found key store
+02-06-2023	21:33:23-------Id-Error:74dc579c-b6bd-4099-bb6d-9f947f88e23f----[POST]----/v1/api/customers/address/create----Address validation failed: last_name: Path `last_name` is required., first_name: Path `first_name` is required.
+02-06-2023	21:38:23-------Id-Error:3c83b136-bcb1-4a78-8429-1ca0e340bcb7----[DELETE]----/v1/api/customers/address/647a19ef691f35b6da86cdd0----Not found key store
+02-06-2023	20:39:23-------Id-Error:3b9753ec-3403-4498-90c5-4c72b18f4bd0----[PATCH]----/v1/api/customers/647a18c2691f35b6da86cdb8/address/647a19ef691f35b6da86cdd0/default----Not found key store
+02-06-2023	28:39:23-------Id-Error:678ee859-7c3d-4edb-ad4b-45f1844310a0----[PATCH]----/v1/api/customers/address/647a19ef691f35b6da86cdd0/default----Not found key store
+03-06-2023	45:22:00-------Id-Error:4724d78c-1058-417f-b48a-0a6f26eab808----[POST]----/v1/dashboard/api/products/647a241553596d16022be20e/publish----This product could not be found
+03-06-2023	31:23:00-------Id-Error:d6cb4f15-471c-4fd0-a3c5-0af6592e5d14----[POST]----/v1/dashboard/api/products/647a241553596d16022be20e/tags----Cast to string failed for value "[ 'electronic', '   apple' ]" (type Array) at path "tags"
+03-06-2023	29:33:13-------Id-Error:9ad714b6-0320-4940-8099-dba3242dca77----[GET]----/v1/api/customers/address?fields=address1,default,province,district,ward----result.toObject is not a function
+03-06-2023	06:34:13-------Id-Error:cf2f7902-23db-4be6-b2a3-0512ff983c8c----[GET]----/v1/api/customers/address?fields=address1,default,province,district,ward----result.toObject is not a function
+03-06-2023	18:35:13-------Id-Error:ebc161fd-fe3a-415e-8345-f6fac57b26f5----[GET]----/v1/api/customers/address?fields=address1,default,province,district,ward----result.toObject is not a function
+03-06-2023	36:50:14-------Id-Error:ea58131a-db38-4856-a764-31d4211ed36c----[GET]----/v1/dashboard/api/customers/search/23423?limit=50&page=1&fields=first_name,last_name,email,gender,birthday,phone_number----error processing query: ns=R8ckie_Development.Customers limit=50Tree: $and
+    $or
+        email regex /23423/i
+        phone_number regex /23423/i
+        TEXT : query=/23423/i, language=english, caseSensitive=0, diacriticSensitive=0, tag=NULL
+    state $eq "enabled"
+    verify_email $eq true
+Sort: { score: { $meta: "textScore" } }
+Proj: { score: { $meta: "textScore" }, first_name: 1, last_name: 1, email: 1, gender: 1, birthday: 1, phone_number: 1 }
+ planner returned error :: caused by :: No query solutions
+03-06-2023	19:52:14-------Id-Error:2fe1ecd7-a16c-473c-bc4d-c93df1f60b05----[GET]----/v1/dashboard/api/customers/search/23423----error processing query: ns=R8ckie_Development.Customers limit=50Tree: $and
+    $or
+        email regex /23423/i
+        phone_number regex /23423/i
+        TEXT : query=/23423/i, language=english, caseSensitive=0, diacriticSensitive=0, tag=NULL
+    state $eq "enabled"
+    verify_email $eq true
+Sort: { score: { $meta: "textScore" } }
+Proj: { score: { $meta: "textScore" }, first_name: 1, last_name: 1, email: 1, phone_number: 1 }
+ planner returned error :: caused by :: No query solutions
+03-06-2023	19:56:14-------Id-Error:eda3f0ee-d30b-4d87-8dec-04d1ac14c4c5----[GET]----/v1/dashboard/api/customers/search/23423?limit=50&page=1&fields=first_name,last_name,email,gender,birthday,phone_number----error processing query: ns=R8ckie_Development.Customers limit=50Tree: $and
+    $or
+        email regex /23423/i
+        phone_number regex /23423/i
+        TEXT : query=/23423/i, language=english, caseSensitive=0, diacriticSensitive=0, tag=NULL
+    state $eq "enabled"
+    verify_email $eq true
+Sort: { score: { $meta: "textScore" } }
+Proj: { score: { $meta: "textScore" }, first_name: 1, last_name: 1, email: 1, gender: 1, birthday: 1, phone_number: 1 }
+ planner returned error :: caused by :: No query solutions
+03-06-2023	57:56:14-------Id-Error:d3723d12-6569-4332-8676-126f093692f5----[GET]----/v1/dashboard/api/customers/search/buithien.dev----error processing query: ns=R8ckie_Development.Customers limit=50Tree: $and
+    $or
+        email regex /buithien.dev/i
+        phone_number regex /buithien.dev/i
+        TEXT : query=/buithien.dev/i, language=english, caseSensitive=0, diacriticSensitive=0, tag=NULL
+    state $eq "enabled"
+    verify_email $eq true
+Sort: { score: { $meta: "textScore" } }
+Proj: { score: { $meta: "textScore" }, first_name: 1, last_name: 1, email: 1, phone_number: 1 }
+ planner returned error :: caused by :: No query solutions
+03-06-2023	38:57:14-------Id-Error:122bb3be-f3a5-47b7-8c3a-e335d27534a7----[GET]----/v1/dashboard/api/customers/search/buithien.dev----error processing query: ns=R8ckie_Development.Customers limit=50Tree: $or
+    email regex /buithien.dev/i
+    phone_number regex /buithien.dev/i
+    TEXT : query=/buithien.dev/i, language=english, caseSensitive=0, diacriticSensitive=0, tag=NULL
+Sort: { score: { $meta: "textScore" } }
+Proj: { score: { $meta: "textScore" }, first_name: 1, last_name: 1, email: 1, phone_number: 1 }
+ planner returned error :: caused by :: Failed to produce a solution for TEXT under OR - other non-TEXT clauses under OR have to be indexed as well.
+03-06-2023	27:02:15-------Id-Error:46baa97f-ed6e-4f14-ab3c-dab10a0a28b1----[GET]----/v1/dashboard/api/customers/count----Cannot destructure property 'filter' of 'undefined' as it is undefined.
+04-06-2023	55:44:00-------Id-Error:824d4843-3882-4644-8b0f-8a3360e5444d----[POST]----/v1/api/customers/login----"password" must be a string
+04-06-2023	30:09:10-------Id-Error:0f8d094c-2e4b-493b-8ea2-78ea55e6eea5----[POST]----/v1/api/customers/register----"fisrt_name" is required
+04-06-2023	56:09:10-------Id-Error:57df3721-e988-4807-9cb3-8617171b2b50----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	28:10:10-------Id-Error:11a09d1e-345e-44df-99dc-ab8065db3bc5----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	29:10:10-------Id-Error:250c729b-9d48-4c50-ab38-533beac487d0----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	14:12:10-------Id-Error:245b9c3c-dc0d-4d5c-aa5d-ec85057c579f----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	17:13:10-------Id-Error:29bacc1b-e857-46a2-9df8-ef03ece91534----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	57:13:10-------Id-Error:15cd0acd-dc81-470a-b03d-225b100f98c7----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	12:14:10-------Id-Error:ff1dc8de-1893-45a1-8d6c-1fd6bd88c7db----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	13:15:10-------Id-Error:572d8a63-6cdc-435f-8540-dc511318faef----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	49:15:10-------Id-Error:76ba06ab-74bc-457f-9db8-5355d5c1d750----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	39:16:10-------Id-Error:7a6af72a-5586-4823-b37b-d211f3759e7b----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	05:17:10-------Id-Error:decbb509-4cd1-4bb3-a190-8dd258273a51----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	13:18:10-------Id-Error:4066f037-d427-40ff-9b55-6e8da1562ace----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	27:19:10-------Id-Error:fe912d18-3e3b-4c02-9b20-091b0662b066----[POST]----/v1/api/customers/register----Cannot read properties of undefined (reading 'catch')
+04-06-2023	03:21:10-------Id-Error:b1183221-7419-4b2b-b21a-51c2c8b5422b----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	35:21:10-------Id-Error:0d7a573b-3ad9-42a3-a99b-f933cad2c5fc----[POST]----/v1/api/customers/register----"repeat_password" must be [ref:password]
+04-06-2023	43:21:10-------Id-Error:99dd1de8-d57f-4d7e-88df-fe3860b0552a----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	06:22:10-------Id-Error:2600014b-f788-4398-ad70-f8ea8863ce09----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	08:22:10-------Id-Error:b79aa5df-f577-4fc6-95b6-863dcfe52391----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	09:22:10-------Id-Error:5c4eff38-bd28-478d-9bfa-4ff0fb6ab547----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	10:22:10-------Id-Error:b1d07720-77d6-4ea4-a9bb-0a5155d96009----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	46:53:10-------Id-Error:661ad01f-98d2-4383-ac1a-4985ec214045----[POST]----/v1/api/customers/register----first_name is required
+04-06-2023	03:11:11-------Id-Error:248970c3-7b74-444b-823e-983d89919ecf----[POST]----/v1/api/customers/register----first_name is required
+04-06-2023	10:11:11-------Id-Error:8cd48d16-8648-4ca0-b502-ce89398af8e9----[POST]----/v1/api/customers/register----"repeat_password" must be [ref:password]
+04-06-2023	41:11:11-------Id-Error:8265d331-ffb4-4ecd-8ef0-647c64209186----[POST]----/v1/api/customers/register----Repeat password must be password
+04-06-2023	42:11:11-------Id-Error:3c5554ec-1161-403f-9982-ef6b4943a371----[POST]----/v1/api/customers/register----Repeat password must be password
+04-06-2023	39:37:11-------Id-Error:0814c5be-54b6-4d89-9046-a7a85d7ff14b----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	54:37:11-------Id-Error:39a52a8d-c3c8-4e9c-8454-bd0c260baac4----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	55:37:11-------Id-Error:2b762ddb-c650-440c-ba52-867d9059148f----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	56:37:11-------Id-Error:96c88806-9fb7-4e01-bfee-ba5ed6e4f253----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	57:37:11-------Id-Error:9b033792-2664-4686-a9c1-d0cc49872c98----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	07:38:11-------Id-Error:af63c6b2-b1c8-4729-bcea-f75e6cdcdd5b----[POST]----/v1/api/customers/register----must be a valid email
+04-06-2023	07:38:11-------Id-Error:f2b18202-881d-4467-9b1c-0b8988120cad----[POST]----/v1/api/customers/register----must be a valid email
+04-06-2023	17:38:11-------Id-Error:3ace7ea8-69a8-4978-aaf3-0baf7d0bae21----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	08:46:11-------Id-Error:38902d85-ff5b-4349-9312-8320a0670c93----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	09:46:11-------Id-Error:d422dd6a-8384-4709-9deb-514a0941166c----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	10:46:11-------Id-Error:4708c921-e497-4014-ae44-288045d56834----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	45:46:11-------Id-Error:1673c77d-5dcb-4304-856a-90c3976d1e1c----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	12:48:11-------Id-Error:bce21a40-0529-4eb4-bdd7-a98f5fbb7e6c----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	02:49:11-------Id-Error:5365ad35-e2be-4867-93f0-ee16da0794db----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	42:51:11-------Id-Error:dc80a384-ee8a-4e7c-af08-afd6657ee9f1----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	16:52:11-------Id-Error:20978e23-4c6b-4d42-8f71-44caebc72cf0----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	52:55:11-------Id-Error:4a5f358a-6d17-45d7-9c28-3ad8f5912af0----[POST]----/v1/api/customers/register----"email" must be a valid email
+04-06-2023	44:56:11-------Id-Error:cd9a2252-ac72-42ea-8cbe-14bc989bf30a----[POST]----/v1/api/customers/register----email must be a valid email
+04-06-2023	26:58:11-------Id-Error:f0c47f67-9c46-4135-a256-3e6da7264988----[POST]----/v1/api/customers/register----Repeat password must be password
+04-06-2023	06:15:12-------Id-Error:7753a328-f3cb-4a28-97ae-d63ad5b55be0----[POST]----/v1/dashboard/api/admin/create----Email is being used
+04-06-2023	06:16:12-------Id-Error:c66c78fc-e1bd-4521-938c-e437b7bb69e0----[POST]----/v1/dashboard/api/admin/create----roles[0] must be one of [Admin, Order, Product]
+04-06-2023	54:17:12-------Id-Error:5cb75295-3a4f-41c5-989a-9263e8836ae0----[POST]----/v1/dashboard/api/admin/create----Email is being used
+04-06-2023	30:25:12-------Id-Error:b86b9b26-c403-466a-8231-65294182a5cb----[POST]----/v1/dashboard/api/admin/create----roles does not contain at least one required match
+04-06-2023	47:25:12-------Id-Error:85af64e0-01ed-47bd-80e5-60f6c7bb6c7a----[POST]----/v1/dashboard/api/admin/create----roles[0] must be [Admin,Order,Product]
+04-06-2023	57:26:12-------Id-Error:64dc7962-8bbd-4509-a23c-46a44fcd3315----[POST]----/v1/dashboard/api/admin/create----Email is being used
+04-06-2023	17:30:12-------Id-Error:d189e458-1478-4d04-b767-80c742653972----[POST]----/v1/dashboard/api/admin/create----roles[0] must be [Admin,Order,Product]
+04-06-2023	40:30:12-------Id-Error:eb36095d-4a77-42b4-8948-4cadf5711139----[POST]----/v1/dashboard/api/admin/create----roles[0] must be [Admin,Order,Product]
+04-06-2023	41:30:12-------Id-Error:0bf7b323-b986-446a-8685-68b20bc08baa----[POST]----/v1/dashboard/api/admin/create----roles[0] must be [Admin,Order,Product]
+04-06-2023	56:30:12-------Id-Error:d08b84d3-7d5a-46ac-8a27-6b743eaf98ef----[POST]----/v1/dashboard/api/admin/create----roles must be an array
+04-06-2023	03:31:12-------Id-Error:a1ea5895-ff04-46d9-b87a-e07c386c7bba----[POST]----/v1/dashboard/api/admin/create----roles[0] must be [Admin,Order,Product]
+04-06-2023	13:31:12-------Id-Error:a500c159-9f7c-49b2-b83e-675f8a780338----[POST]----/v1/dashboard/api/admin/create----Email is being used
+04-06-2023	47:34:12-------Id-Error:cef63429-1655-4e97-a4f6-2d1dcd84b317----[POST]----/v1/dashboard/api/admin/create----roles[0] must be one of [Admin, Order, Product]
+04-06-2023	09:35:12-------Id-Error:96331718-336d-48a9-b168-7ed84e3afc6a----[POST]----/v1/dashboard/api/admin/create----Email is being used
+04-06-2023	28:36:12-------Id-Error:186776fa-b15c-4b5d-969b-5c35b4c74205----[POST]----/v1/dashboard/api/admin/create----roles[0] must be [Admin,Order,Product]
+04-06-2023	00:37:12-------Id-Error:30712d1a-315d-4268-a263-738f96d6e660----[POST]----/v1/dashboard/api/admin/create----Email is being used
+04-06-2023	26:48:13-------Id-Error:8f3b1374-c057-43aa-9e4b-20bb6b0805a6----[POST]----/v1/api/customers/address/create----Address validation failed: last_name: Path `last_name` is required.
+04-06-2023	54:49:13-------Id-Error:77d95050-066b-47b8-9766-48acc28e0632----[POST]----/v1/api/customers/address/create----Address validation failed: last_name: Path `last_name` is required.
+04-06-2023	37:05:14-------Id-Error:bc736378-556a-458c-b6f3-525889a78312----[POST]----/v1/api/customers/address/create----last_name is not allowed to be empty
+04-06-2023	14:18:14-------Id-Error:36874f14-b32b-4c57-a5b8-be2eef084fc4----[PATCH]----/v1/api/customers/address/647c3a3671322f4b9f29102a----customer_id is not allowed
+04-06-2023	08:17:15-------Id-Error:7279b05c-c6b0-49af-9fd4-a42b119006a0----[PATCH]----/v1/api/customers/address/647c3a3671322f4b9f29102a----Expected double-quoted property name in JSON at position 77
+04-06-2023	29:18:15-------Id-Error:6d5a45e1-097e-4d9c-ac0b-8b34c94af6a3----[POST]----/v1/dashboard/api/products/create----product_variants[0].variant_title is required
+04-06-2023	21:19:15-------Id-Error:7633f556-29f4-4008-b46c-298b44891c3e----[POST]----/v1/dashboard/api/products/create----product_variants[0].barcode is not allowed
+04-06-2023	36:29:15-------Id-Error:70ee82ca-2e92-4038-adc5-b02aaeff4eab----[POST]----/v1/dashboard/api/products/create----product_variants[0].inventory_policy is not allowed
+04-06-2023	59:29:15-------Id-Error:2b1a574b-dad5-4c13-a0b1-70ffbc633517----[POST]----/v1/dashboard/api/products/create----product_type is not allowed
+04-06-2023	30:30:15-------Id-Error:6e19b3d0-3a5d-4d1f-bda5-873da3081443----[POST]----/v1/dashboard/api/products/create----product_ratings_averager is not allowed
+04-06-2023	14:31:15-------Id-Error:38f3b9c6-1fb4-44af-8ff0-04c1b7ba7292----[POST]----/v1/dashboard/api/products/create----isDraft is not allowed
+04-06-2023	19:33:15-------Id-Error:415d40cc-97ea-4597-8943-0aea5851ff10----[POST]----/v1/dashboard/api/products/create----The number of variant values must be equal to the number of variant attributes
+04-06-2023	57:33:15-------Id-Error:d3f382fb-fe6a-4f11-8aab-f5dd6c64f542----[POST]----/v1/dashboard/api/products/create----The number of variant values must be equal to the number of variant attributes
+04-06-2023	52:06:16-------Id-Error:075105f2-bd59-4eca-be9d-69c48ef0a227----[POST]----/v1/dashboard/api/products/create----Cannot read properties of undefined (reading 'length')
+04-06-2023	56:07:16-------Id-Error:6da02c9e-b8af-4507-81e0-852c5d41ad34----[POST]----/v1/dashboard/api/products/create----Cannot read properties of undefined (reading 'map')
+04-06-2023	31:08:16-------Id-Error:df79c632-9a94-4fa0-8e4e-12c93a8f7b30----[POST]----/v1/dashboard/api/products/create----Cannot read properties of undefined (reading 'length')
+04-06-2023	33:08:16-------Id-Error:0e0b7117-54a6-4252-913f-af458df69977----[POST]----/v1/dashboard/api/products/create----Cannot read properties of undefined (reading 'length')
+04-06-2023	48:08:16-------Id-Error:00034cac-2576-47a0-b649-e70e68f2834a----[POST]----/v1/dashboard/api/products/create----Cannot read properties of undefined (reading 'forEach')
+04-06-2023	09:09:16-------Id-Error:f90b5fe0-9e02-4ad2-821b-409c33dda9fd----[POST]----/v1/dashboard/api/products/create----Image or variant initialization failed
+04-06-2023	10:09:16-------Id-Error:8a0d5c56-f623-44bd-8587-d1d1bdd054e7----[POST]----/v1/dashboard/api/products/create----Image or variant initialization failed
+04-06-2023	55:09:16-------Id-Error:523282dc-11ac-4101-b21a-a47854ebf3cf----[POST]----/v1/dashboard/api/products/create----Image or variant initialization failed
+04-06-2023	39:10:16-------Id-Error:5190d1b0-93ea-4d85-9010-7dc0155b680c----[POST]----/v1/dashboard/api/products/create----Image or variant initialization failed
+04-06-2023	54:17:16-------Id-Error:fe1abd37-1739-48c9-9e98-9fa961e3443f----[POST]----/v1/dashboard/api/products/create----The number of variant values must be equal to the number of variant attributes
+04-06-2023	08:18:16-------Id-Error:868c0df7-7722-441a-b4c7-26bcdcdb5179----[POST]----/v1/dashboard/api/products/create----The number of variant values must be equal to the number of variant attributes
+04-06-2023	20:24:16-------Id-Error:bfb1bf4e-2743-4101-bcb4-6527edefa6c7----[POST]----/v1/dashboard/api/products/create----product_ratings_averager must be less than or equal to 5
+04-06-2023	09:44:16-------Id-Error:5ec9d1b1-f7e1-4866-ab00-82b392f5db26----[PATCH]----/v1/dashboard/api/products/647a241553596d16022be20----Cast to ObjectId failed for value "647a241553596d16022be20" (type string) at path "_id" for model "Product"
+04-06-2023	46:46:16-------Id-Error:ff9be20a-6ee7-43bd-8544-d8e44e64e887----[POST]----/v1/dashboard/api/products/create----product_ratings_averager must be less than or equal to 5
+04-06-2023	48:47:16-------Id-Error:c1ea9420-6ca4-4f73-9201-2950eee43bfb----[POST]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/create----product_id with value 23432423 fails to match the required pattern: /^[0-9a-fA-F]{24}$/
+04-06-2023	31:51:16-------Id-Error:f0f19503-eef0-4320-b3a0-905ebb25629e----[POST]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/create----Variant validation failed: position: Path `position` is required.
+04-06-2023	12:11:18-------Id-Error:e1d79926-fd9f-48ce-a697-436f0a871d00----[POST]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/create----Sản phẩm đã tồn tại biến thể này.
+04-06-2023	50:25:18-------Id-Error:0b6c817a-4181-4d19-9c81-7085ecb9333f----[PATCH]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/647a25fe53596d16022be259----option1 is not allowed to be empty
+04-06-2023	13:45:18-------Id-Error:0e0a691a-cc0c-4550-bda9-36a15dec3e52----[PATCH]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/647a25fe53596d16022be259----option1 is not allowed to be empty
+04-06-2023	27:45:18-------Id-Error:17af157e-7cc8-4768-8b65-5524f0cbf56e----[PATCH]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/647a25fe53596d16022be259----position is not allowed
+04-06-2023	00:46:18-------Id-Error:e0f238ea-a68d-4b54-bed1-8247885dd2c8----[PATCH]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/647a25fe53596d16022be259----Sản phẩm đã tồn tại biến thể này.
+04-06-2023	48:09:21-------Id-Error:5b39cf25-7a5f-4527-95f4-4aa0d12a3a68----[POST]----/v1/dashboard/api/admin/logout----Your token has expired
+04-06-2023	54:09:21-------Id-Error:add87655-771f-4c61-b7ed-3cdb1256e62d----[POST]----/v1/dashboard/api/admin/refresh----Your token has expired
+04-06-2023	15:10:21-------Id-Error:c1931ec0-5303-4585-990c-f717672e1f3d----[GET]----/v1/dashboard/api/customers?limit=50&page=1&sort=ctime&fields=first_name,last_name,email,addresses----Your token has expired
+04-06-2023	25:10:21-------Id-Error:b6a6233e-ed8c-4796-abce-f4dbbe016d4e----[POST]----/v1/api/customers/register----Repeat password must be password
+04-06-2023	19:11:21-------Id-Error:88a30061-0d73-4de0-8b73-9b9728280719----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	09:16:21-------Id-Error:a43f382f-27e9-473d-8d3c-b4c644f42cb7----[POST]----/v1/api/customers/register----password length must be at least 6 characters long
+04-06-2023	22:16:21-------Id-Error:df40b7ee-9b7e-474d-a3b8-a54427a79384----[POST]----/v1/api/customers/register----password length must be at least 6 characters long
+04-06-2023	26:16:21-------Id-Error:a5cf0ebb-296f-4646-904d-e73d5529c1b1----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	33:16:21-------Id-Error:af2bbd69-1076-43b9-8d8f-efbfff0f20be----[POST]----/v1/api/customers/register----Email is being used
+04-06-2023	36:18:21-------Id-Error:f699d39c-b53c-4f48-bbe3-a8a8f1432d20----[POST]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/create----Sản phẩm đã tồn tại biến thể này.
+04-06-2023	41:18:21-------Id-Error:cc9fb12c-b386-4a20-9b5c-62a9b725e0f8----[POST]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/create----Sản phẩm đã tồn tại biến thể này.
+04-06-2023	44:46:22-------Id-Error:a0cd9dbc-46a9-4c10-b6c5-c1dae068d5c9----[POST]----/v1/dashboard/api/products/646ed457f6806785de2eb7c8/images----product_id is required
+04-06-2023	33:17:23-------Id-Error:de08d9e5-146b-492a-a613-72b454acc790----[POST]----/v1/dashboard/api/products/variants/create----Sản phẩm đã tồn tại biến thể này.
+04-06-2023	17:19:23-------Id-Error:a4116f3d-b332-4bbb-a653-f87836e82965----[POST]----/v1/dashboard/api/products/variants/create----Sản phẩm đã tồn tại biến thể này.
+04-06-2023	01:22:23-------Id-Error:99b86ca0-0db9-40e2-9458-05e17fc82c27----[POST]----/v1/dashboard/api/products/variants/create----variant_title is not allowed
+04-06-2023	47:24:23-------Id-Error:f1235b0a-5505-4e56-89aa-4a186b89f6bd----[POST]----/v1/dashboard/api/products/variants/create----variant_image with value 234232 fails to match the required pattern: /^[0-9a-fA-F]{24}$/
+04-06-2023	05:25:23-------Id-Error:b229a5b3-3367-4f31-b4dd-9a83ac30b399----[POST]----/v1/dashboard/api/products/variants/create----Sản phẩm đã tồn tại biến thể này.
+04-06-2023	18:55:23-------Id-Error:6c80183a-038a-4c1e-8173-d72886a70d5c----[PATCH]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/647a25fe53596d16022be259----product_id is required
+04-06-2023	19:59:23-------Id-Error:5db2a5a7-0280-4674-9801-e5972dbf103b----[PATCH]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/647a25fe53596d16022be259----Sản phẩm đã tồn tại biến thể này.
+04-06-2023	20:59:23-------Id-Error:7f4b3be5-807c-46ec-b552-feba8b8e19d9----[PATCH]----/v1/dashboard/api/products/647a241553596d16022be20e/variants/647a25fe53596d16022be259----Sản phẩm đã tồn tại biến thể này.
+05-06-2023	29:15:00-------Id-Error:99f82ac5-f7f1-4557-8c2d-36d3cbfeb05b----[PATCH]----/v1/dashboard/api/products/variants/647a25fe53596d16022be259----Sản phẩm đã tồn tại biến thể này.
+05-06-2023	31:15:00-------Id-Error:b629351c-f896-4c54-a8a2-5ee1c8be7731----[PATCH]----/v1/dashboard/api/products/variants/647a25fe53596d16022be259----Sản phẩm đã tồn tại biến thể này.
+05-06-2023	11:16:00-------Id-Error:8549bea6-cdb1-4bef-9399-3120410442bf----[PATCH]----/v1/dashboard/api/products/variants/647a25fe53596d16022be259----Sản phẩm đã tồn tại biến thể này.
+05-06-2023	37:17:00-------Id-Error:f841f4ae-ab67-40b3-8e4f-a039c11d338f----[POST]----/v1/dashboard/api/products/variants/create----Sản phẩm đã tồn tại biến thể này.
+05-06-2023	50:18:00-------Id-Error:984943fc-233e-455d-938f-abe2acea68d0----[PATCH]----/v1/dashboard/api/products/variants/647cc75ce61c3c3fe29fe65e----Sản phẩm đã tồn tại biến thể này.
